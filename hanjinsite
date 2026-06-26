@@ -1,0 +1,19 @@
+<div style="display: flex; gap: 15px; width: 100%; justify-content: space-between; align-items: flex-start;">
+
+  <!-- 왼쪽: 한진택배 -->
+  <div style="flex: 1; min-width: 300px; max-width: 49%; height: 700px; overflow: hidden; position: relative; border: 1px solid #e0e0e0; border-radius: 8px;">
+    <iframe src="https://www.hanjin.com/kor/CMS/Contents/Contents.do?mCode=MN109" 
+            style="position: absolute; top: -3550px; left: -50px; width: 1300px; height: 5000px; border: none;" 
+            scrolling="no">
+    </iframe>
+  </div>
+
+  <!-- 오른쪽: 롯데택배 -->
+  <div style="flex: 1; min-width: 300px; max-width: 49%; height: 700px; overflow: auto; position: relative; border: 1px solid #e0e0e0; border-radius: 8px; -webkit-overflow-scrolling: touch;">
+    <iframe src="https://www.lotteglogis.com/home/customs/notice/list" 
+            style="position: absolute; top: -500px; left: -10px; width: 1250px; height: 1200px; border: none;pointer-events: auto;" 
+            scrolling="yes">
+    </iframe>
+  </div>
+
+</div>
